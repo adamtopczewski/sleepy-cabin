@@ -1,38 +1,114 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@font-face {
+    font-family: 'OldPress';
+    src: url('assets/Old\ Press.ttf');
   }
+
+@font-face {
+font-family: 'JoeFont';
+src: url('assets/Joe\ Font.ttf');
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.App-link {
-  color: #61dafb;
+/* Container */
+
+.container {
+    background-color: rgb(222, 198, 173);
+    height: 100vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Navbar */
+
+.navbar {
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+
+.nav-list {
+    list-style-type: none;
+    height: 150px;
+    background-image: url(./assets/Note\ transparent.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: right;
+    margin-right: 10px;
+    padding: 30px;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-item {    
+    display: inline;
+    margin: 0 10px;
+    font-size: 2.8em;
+    font-family: 'OldPress', sans-serif;
+}
+
+/* Hero */
+
+.hero {    
+    background-image: url(./assets/bg-without-note.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-logo {
+    width: 959px;
+    max-height: 630px;
+    overflow: hidden;
+}
+
+.hero-text {
+    position: absolute;
+    top: 60%;
+    left: 53%;
+    text-align: center;
+    color: white;
+    font-family: 'JoeFont';
+    font-size: 3.8em;
+    text-shadow: 5px 2px black;
+}
+
+
+/* */
+@media only screen and (max-width: 600px) {
+    .container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .navbar {
+        top: 15px;
+    }    
+
+    .nav-list {
+        height: 180px;
+        float: none;
+        margin: 15px;
+    }    
+    .nav-item {
+        margin: auto;
+        font-size: 3.2em;
+        font-family: 'OldPress', sans-serif;
+    }
+    
+    .hero-text {
+        left: auto;
+        top: 70%;
+        margin: auto;
+        color: white;
+        font-size: 3em;
+    }
 }
