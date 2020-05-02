@@ -1,20 +1,20 @@
 // TBD - Whole home page divided into components 
 import React from 'react'
-import logo from '../assets/sleepy-logo.png'
+
 import Navbar from '../components/Navbar'
+import Hero from '../components/Hero'
+import Cards from '../components/Cards'
 
 export default function Home() {
     return (
         <>
-        <div className="container">
-            <div className="hero">
+            <section className="section">
                 <Navbar />
-                <img src={logo} className="hero-logo"/>
-                <p className="hero-text">Get your keys now</p>
-            </div>
-        </div>
-        <div className="container">
-        </div>
+                <Hero />
+            </section>
+            <section className="section">
+                <Cards /> 
+            </section>
         </>
     )
 }

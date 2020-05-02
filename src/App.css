@@ -1,12 +1,21 @@
+/* Costum fonts import*/
+
 @font-face {
     font-family: 'OldPress';
-    src: url('assets/Old\ Press.ttf');
+    src: url('assets/fonts/Old\ Press.ttf');
   }
 
 @font-face {
 font-family: 'JoeFont';
-src: url('assets/Joe\ Font.ttf');
+src: url('assets/fonts/Joe\ Font.ttf');
 }
+
+@font-face {
+    font-family: 'gravitation';
+    src: url('assets/fonts/gravitation_falls.ttf');
+    }
+
+/* General Rules */
 
 * {
     margin: 0;
@@ -14,42 +23,109 @@ src: url('assets/Joe\ Font.ttf');
     box-sizing: border-box;
 }
 
-/* Container */
+html, body {
+    font-size: 100%;
+    background-color: #38251F;
+}
 
-.container {
-    background-color: rgb(222, 198, 173);
+/* Section & Container */
+
+.section {
     height: 100vh;
 }
 
-/* Navbar */
-
-.navbar {
-    position: absolute;
-    width: 100%;
-    top: 0;
+.container { 
+    max-width: 960px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
 }
 
-.nav-list {
-    list-style-type: none;
-    height: 150px;
-    background-image: url(./assets/Note\ transparent.png);
+/* Cards */
+
+.mock2 {
+    flex-direction: row-reverse;
+}
+
+.text-with-photo {
+    margin-top: 2rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+}
+.photo {
+    max-width: 50%;
+    width: 500px;
+    height: 100%;
+}
+
+.title {
+    background-color: rgba(255,255,255 , 0.1);
+    padding: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(104, 240, 203);
+    letter-spacing: 0.2rem;
+    font-family: 'gravitation';
+    text-transform: uppercase;
+    margin: 1rem;
+}
+
+.description {
+    font-family: 'JoeFont', sans-serif;
+    margin: 1rem;
+    color: white;
+    font-size: 1.4rem;
+}
+
+/* Navbar i header*/
+
+.header {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+.navbar {
+    position: relative;
+    left: 15rem;
+    top: 3rem;
+    height: 253px;
+    width: 510px;
+    max-width: 80%;
+    margin:auto;
+    background-image: url(./assets/Note\ transparent.png);    
     background-repeat: no-repeat;
-    background-size: contain;
-    float: right;
-    margin-right: 10px;
-    padding: 30px;
+    background-size: cover;
+    background-position: center;
     display: flex;    
     align-items: center;
     justify-content: center;
 }
 
+.nav-list {
+    list-style-type: none;
+    margin-right: 1rem;
+}
+
 .nav-item {    
     display: inline;
-    margin: 0 10px;
-    font-size: 2.8em;
+    margin: 0 1rem;
+    font-size: 4.4rem;
+    border: 0.3rem solid transparent;    
+    color: #3D1D0A;
     font-family: 'OldPress', sans-serif;
 }
 
+.nav-item:hover {
+    color: white;
+    border: 0.3rem solid transparent;    
+    border-image: url('./assets/circle.png') 20%;
+    cursor: pointer;
+    text-shadow: 5px 5px black;
+}
 /* Hero */
 
 .hero {    
@@ -60,55 +136,89 @@ src: url('assets/Joe\ Font.ttf');
     height: 100%;
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 
 .hero-logo {
-    width: 959px;
-    max-height: 630px;
+    width: 100%;
+    max-width: 905px;
     overflow: hidden;
+    z-index: 1;
 }
 
 .hero-text {
     position: absolute;
     top: 60%;
-    left: 53%;
+    left: 50%;
     text-align: center;
     color: white;
     font-family: 'JoeFont';
     font-size: 3.8em;
     text-shadow: 5px 2px black;
+    max-width: 705px;
+    z-index: 2;
 }
 
 
-/* */
-@media only screen and (max-width: 600px) {
-    .container {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
+/* Tablety */
+@media only screen and (max-width: 768px) {
     .navbar {
-        top: 15px;
-    }    
-
-    .nav-list {
-        height: 180px;
-        float: none;
-        margin: 15px;
-    }    
-    .nav-item {
-        margin: auto;
-        font-size: 3.2em;
-        font-family: 'OldPress', sans-serif;
+        left: 0;
     }
-    
     .hero-text {
-        left: auto;
+        left: 40%;
+        font-size: 2.8rem;
+        margin-right: 1rem;
         top: 70%;
         margin: auto;
-        color: white;
-        font-size: 3em;
+
     }
+
+    .description {
+        font-size: 1rem;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+}
+
+/* Komórki */
+@media only screen and (max-width: 600px) {
+
+    .navbar {
+        max-width: 75%;
+        height: 180px;
+        left: 0;
+        top: 3vh;
+    }
+
+    .hero-logo {
+        width: 100%;
+    }
+
+    .hero-text {
+        font-size: 2rem;
+        top: 70%;
+        left: 0;
+        width: 100%;
+        margin: auto;
+    }
+ 
+    .nav-item {
+        margin: 0 0.8rem;
+        font-size: 2.4rem;
+        font-family: 'OldPress', sans-serif;
+    }
+
+    .text-with-photo {
+        flex-direction: column;
+    }
+    .photo {
+        max-width: 90%;
+    }
+    
 }
