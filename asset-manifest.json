@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/sleepy-cabin/static/css/main.4a4fcb01.chunk.css",
+    "main.js": "/sleepy-cabin/static/js/main.3455ed3c.chunk.js",
+    "main.js.map": "/sleepy-cabin/static/js/main.3455ed3c.chunk.js.map",
+    "runtime-main.js": "/sleepy-cabin/static/js/runtime-main.47fb8632.js",
+    "runtime-main.js.map": "/sleepy-cabin/static/js/runtime-main.47fb8632.js.map",
+    "static/js/2.c7945f0c.chunk.js": "/sleepy-cabin/static/js/2.c7945f0c.chunk.js",
+    "static/js/2.c7945f0c.chunk.js.map": "/sleepy-cabin/static/js/2.c7945f0c.chunk.js.map",
+    "index.html": "/sleepy-cabin/index.html",
+    "precache-manifest.1ea9977a545d713c60b53423892c1493.js": "/sleepy-cabin/precache-manifest.1ea9977a545d713c60b53423892c1493.js",
+    "service-worker.js": "/sleepy-cabin/service-worker.js",
+    "static/css/main.4a4fcb01.chunk.css.map": "/sleepy-cabin/static/css/main.4a4fcb01.chunk.css.map",
+    "static/js/2.c7945f0c.chunk.js.LICENSE.txt": "/sleepy-cabin/static/js/2.c7945f0c.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/sleepy-cabin/static/media/gravitation_falls.0865f672.ttf",
+    "static/media/polaroid.png": "/sleepy-cabin/static/media/polaroid.261cb42d.png",
+    "static/media/sleepy-logo.png": "/sleepy-cabin/static/media/sleepy-logo.61bb6c05.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.47fb8632.js",
+    "static/js/2.c7945f0c.chunk.js",
+    "static/css/main.4a4fcb01.chunk.css",
+    "static/js/main.3455ed3c.chunk.js"
+  ]
+}
