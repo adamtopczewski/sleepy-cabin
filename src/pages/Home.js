@@ -1,20 +1,15 @@
-// TBD - Whole home page divided into components 
 import React from 'react'
 
 import Navbar from '../components/Navbar'
-import Hero from '../components/Hero'
-import Cards from '../components/Cards'
+import Hero from '../components/home/Hero'
+import Cards from '../components/home/Cards'
 
 export default function Home() {
     return (
         <>
-            <section className="section">
-                <Navbar />
-                <Hero />
-            </section>
-            <section className="section">
-                <Cards /> 
-            </section>
+            <Navbar />
+            <Hero />
+            <Cards />
         </>
     )
 }

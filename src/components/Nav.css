@@ -1,0 +1,71 @@
+/* Navbar i header*/
+.header {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+.navbar {
+    position: relative;
+    left: 15rem;
+    top: 3rem;
+    height: 253px;
+    width: 510px;
+    max-width: 80%;
+    margin:auto;
+    background-image: url(../assets/note.png);    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin-right: 1rem;
+}
+
+.nav-item {    
+    display: inline;
+    margin: 0 1rem;
+    font-size: 4.4rem;
+    border: 0.3rem solid transparent;    
+    color: #3D1D0A;
+    font-family: 'OldPress', sans-serif;
+}
+
+.nav-item:hover {
+    color: white;
+    border: 0.3rem solid transparent;    
+    border-image: url(../assets/circle.png) 20%;
+    cursor: pointer;
+    text-shadow: 5px 5px black;
+}
+
+/* Tablets */
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        left: 0;
+    }
+}
+
+/* Phones */
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+        max-width: 70%;
+        height: 180px;
+        left: 0;
+        top: 10%;
+    }
+
+    .nav-item {
+        margin: auto 0.2em;
+        font-size: 2.4rem;
+        font-family: 'OldPress', sans-serif;
+    }    
+}

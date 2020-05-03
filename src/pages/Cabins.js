@@ -1,1 +1,1 @@
-// TBD - showing cabins in component (functional sateless component)
+/* TBD */

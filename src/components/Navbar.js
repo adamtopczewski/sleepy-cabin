@@ -1,6 +1,5 @@
-// TBD navbar/ with state if responsive
-
 import React from 'react'
+import './Nav.css'
 
 export default function Navbar() {
     return (

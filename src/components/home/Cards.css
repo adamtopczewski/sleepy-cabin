@@ -1,0 +1,63 @@
+/* Cards */
+.text-with-photo {
+    display: flex;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.photo {
+    width: 50%;
+    max-width: 500px;
+}
+
+.card-text {
+    width: 50%;
+}
+
+.title {
+    background-color: rgba(255,255,255 , 0.1);
+    border-radius: 8%;
+    padding: 0.8em;
+    text-align: center;
+    font-weight: 80;
+    font-size: 1.8rem;
+    color: rgb(104, 240, 203);
+    letter-spacing: 0.1rem;
+    font-family: 'gravitation';
+    text-transform: uppercase;
+}
+
+.description {
+    font-family: 'JoeFont', sans-serif;
+    margin: 1rem 1rem;
+    color: lightgray;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+/* Tablets */
+
+@media only screen and (max-width: 768px) {
+    .description {
+        font-size: 1rem;
+    }
+    .title {
+        font-size: 1.8rem;
+    }
+}
+
+/* Phones */
+
+@media only screen and (max-width: 600px) {
+    .text-with-photo {
+        flex-direction: column;
+    }
+
+    .card-text {
+        width: 90%;
+    }
+
+    .photo {
+        width: 90%;
+    }    
+}

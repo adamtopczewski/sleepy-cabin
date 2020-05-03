@@ -1,0 +1,54 @@
+/* Hero */
+.hero {    
+    background-image: url(../../assets/heroBg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-logo {
+    width: 80%;
+    max-width: 705px;
+    z-index: 1;
+}
+
+.hero-text {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    text-align: center;
+    color: white;
+    font-family: 'JoeFont';
+    font-size: 3.8em;
+    font-weight: bold;
+    text-shadow: 5px 2px black;
+    z-index: 2;
+}
+
+
+/* Tablets */
+@media only screen and (max-width: 768px) {
+    .hero-text {
+        left: 40%;
+        font-size: 2.8rem;
+        margin-right: 1em;
+        top: 65%;
+    }
+}
+
+/* Phones */
+@media only screen and (max-width: 600px) {
+    .hero-text {
+        font-size: 2rem;
+        top: 70%;
+        left: 0;
+        width: 100%;
+    }
+    
+}
