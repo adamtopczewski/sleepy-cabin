@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ac0bf6f347513959fbbefc3ed0360a3a",
+    "revision": "0e0b0fd29becf866103c1d37279cad3a",
     "url": "/sleepy-cabin/index.html"
   },
   {
-    "revision": "92ba5fed2e0ecf3e3eaf",
-    "url": "/sleepy-cabin/static/css/main.09a7f908.chunk.css"
+    "revision": "e69bfa2114375f81f9ec",
+    "url": "/sleepy-cabin/static/css/main.afb4916f.chunk.css"
   },
   {
-    "revision": "6b38f543e75641afcb41",
-    "url": "/sleepy-cabin/static/js/2.885eed7c.chunk.js"
+    "revision": "a268a7c833b724233c07",
+    "url": "/sleepy-cabin/static/js/2.8827e14d.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/sleepy-cabin/static/js/2.885eed7c.chunk.js.LICENSE.txt"
+    "url": "/sleepy-cabin/static/js/2.8827e14d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "92ba5fed2e0ecf3e3eaf",
-    "url": "/sleepy-cabin/static/js/main.8695008b.chunk.js"
+    "revision": "e69bfa2114375f81f9ec",
+    "url": "/sleepy-cabin/static/js/main.4346ccdc.chunk.js"
   },
   {
     "revision": "96db435359428753e9f6",
@@ -44,6 +44,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sleepy-cabin/static/media/heroBg.c3d7a3b4.jpg"
   },
   {
+    "revision": "3519e5b3265e570ef93ff2390f5984de",
+    "url": "/sleepy-cabin/static/media/hrBig.3519e5b3.png"
+  },
+  {
     "revision": "f6558ded9132841145c758ced96eeeca",
     "url": "/sleepy-cabin/static/media/logo.f6558ded.png"
   },
@@ -58,5 +62,13 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "69d82ba2ca6704a4c1722da5a40fce27",
     "url": "/sleepy-cabin/static/media/polaroid2.69d82ba2.png"
+  },
+  {
+    "revision": "51a0d57262e8fd2ed701f7028afd51c5",
+    "url": "/sleepy-cabin/static/media/titleSignDark.51a0d572.png"
+  },
+  {
+    "revision": "1ab5902375eb29a52f9b91c34db2f7d4",
+    "url": "/sleepy-cabin/static/media/titleSignDarkFliped.1ab59023.png"
   }
 ]);
