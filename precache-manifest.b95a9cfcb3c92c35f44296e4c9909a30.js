@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "70220bbcc92bea37f634414c55717664",
+    "revision": "9b58219c00ec19bdf6827f66b163f4b4",
     "url": "/sleepy-cabin/index.html"
   },
   {
-    "revision": "e8f7177255d1a0bb7aeb",
-    "url": "/sleepy-cabin/static/css/main.afb4916f.chunk.css"
+    "revision": "4d85a0d0769a2628401c",
+    "url": "/sleepy-cabin/static/css/main.de0eebb6.chunk.css"
   },
   {
-    "revision": "ce6b4c1c4134642f69c6",
-    "url": "/sleepy-cabin/static/js/2.2d9f8544.chunk.js"
+    "revision": "02ceeaadca2dcf649a6f",
+    "url": "/sleepy-cabin/static/js/2.fa9206a0.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/sleepy-cabin/static/js/2.2d9f8544.chunk.js.LICENSE.txt"
+    "url": "/sleepy-cabin/static/js/2.fa9206a0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e8f7177255d1a0bb7aeb",
-    "url": "/sleepy-cabin/static/js/main.8e1fb257.chunk.js"
+    "revision": "4d85a0d0769a2628401c",
+    "url": "/sleepy-cabin/static/js/main.6e59c790.chunk.js"
   },
   {
     "revision": "96db435359428753e9f6",
@@ -44,12 +44,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sleepy-cabin/static/media/heroBg.c3d7a3b4.jpg"
   },
   {
-    "revision": "3519e5b3265e570ef93ff2390f5984de",
-    "url": "/sleepy-cabin/static/media/hrBig.3519e5b3.png"
+    "revision": "2094b860b6a26c61804f1da5b7f14eb2",
+    "url": "/sleepy-cabin/static/media/hrSketch.2094b860.png"
   },
   {
     "revision": "f6558ded9132841145c758ced96eeeca",
     "url": "/sleepy-cabin/static/media/logo.f6558ded.png"
+  },
+  {
+    "revision": "5f5d9f2e39bf986c836658375b9c182e",
+    "url": "/sleepy-cabin/static/media/mock1.5f5d9f2e.png"
+  },
+  {
+    "revision": "43c26590a64d9364793cfe643b4e319c",
+    "url": "/sleepy-cabin/static/media/mock2.43c26590.png"
+  },
+  {
+    "revision": "77a621be51d9b7d9444731829eb447dc",
+    "url": "/sleepy-cabin/static/media/mock3.77a621be.png"
   },
   {
     "revision": "621097d3794b063d84005e29c2ef980e",
