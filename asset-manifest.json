@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/sleepy-cabin/static/css/main.2a447201.chunk.css",
+    "main.css": "/sleepy-cabin/static/css/main.e87192d6.chunk.css",
     "main.js": "/sleepy-cabin/static/js/main.ee4a6090.chunk.js",
     "main.js.map": "/sleepy-cabin/static/js/main.ee4a6090.chunk.js.map",
     "runtime-main.js": "/sleepy-cabin/static/js/runtime-main.47fb8632.js",
@@ -8,9 +8,9 @@
     "static/js/2.fa9206a0.chunk.js": "/sleepy-cabin/static/js/2.fa9206a0.chunk.js",
     "static/js/2.fa9206a0.chunk.js.map": "/sleepy-cabin/static/js/2.fa9206a0.chunk.js.map",
     "index.html": "/sleepy-cabin/index.html",
-    "precache-manifest.728d5ed0da599b2b63dd9e4af2dee683.js": "/sleepy-cabin/precache-manifest.728d5ed0da599b2b63dd9e4af2dee683.js",
+    "precache-manifest.935b3a413423c37764267ac959fa16c9.js": "/sleepy-cabin/precache-manifest.935b3a413423c37764267ac959fa16c9.js",
     "service-worker.js": "/sleepy-cabin/service-worker.js",
-    "static/css/main.2a447201.chunk.css.map": "/sleepy-cabin/static/css/main.2a447201.chunk.css.map",
+    "static/css/main.e87192d6.chunk.css.map": "/sleepy-cabin/static/css/main.e87192d6.chunk.css.map",
     "static/js/2.fa9206a0.chunk.js.LICENSE.txt": "/sleepy-cabin/static/js/2.fa9206a0.chunk.js.LICENSE.txt",
     "static/media/App.css": "/sleepy-cabin/static/media/gravitation_falls.0865f672.ttf",
     "static/media/Nav.css": "/sleepy-cabin/static/media/note.621097d3.png",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.47fb8632.js",
     "static/js/2.fa9206a0.chunk.js",
-    "static/css/main.2a447201.chunk.css",
+    "static/css/main.e87192d6.chunk.css",
     "static/js/main.ee4a6090.chunk.js"
   ]
 }
