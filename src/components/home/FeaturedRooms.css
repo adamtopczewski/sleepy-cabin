@@ -1,1 +1,80 @@
 /* TBD */
+.featured-header {
+    width: 100%;    
+    height: 300px;
+    background-image: url(../../assets/hrSketch.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.featured-header h1 {
+    font-size: 8rem;
+    font-weight: 80;
+    font-family: 'gravitation', sans-serif;
+    text-shadow: 5px 5px black;
+    color: #E3E3E3;
+}
+
+.featured-rooms {
+    display: flex;
+    height: calc(100vh - 300px);
+    align-items: center;
+}
+
+.room-img {
+    max-width: 600px;
+    width: 100%;
+}
+
+.room {
+    text-decoration: none;
+}
+
+.room-name {
+    position: relative;
+    text-align: center;
+    top: -3em;
+    font-family: 'JoeFont', sans-serif;
+    margin: 0;
+    color: black;
+    font-size: 1.7rem;
+    font-weight: 700;
+    z-index: 1;
+}
+
+/* Tablets */
+
+@media only screen and (max-width: 768px) {
+    .featured-header h1 {
+        font-size: 5rem;
+    }
+    .room-name {
+        font-size: 2rem;
+    }
+    .featured-rooms {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+}
+
+/* Phones */
+
+@media only screen and (max-width: 600px) {
+    .featured-header h1 {
+        font-size: 4rem;
+    }
+    .room-name {
+        font-size: 1.8rem;
+    }
+    .featured-rooms {
+        flex-direction: column;
+        height: auto;
+    }
+}
