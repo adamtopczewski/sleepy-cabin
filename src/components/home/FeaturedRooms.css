@@ -22,7 +22,8 @@
 
 .featured-rooms {
     display: flex;
-    height: calc(100vh - 300px);
+    height: auto;
+    margin-top: 3em;
     align-items: center;
 }
 
