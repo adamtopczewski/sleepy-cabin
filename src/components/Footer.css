@@ -1,0 +1,59 @@
+footer {
+    width: 100%;
+    background-color: #E26C29;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-evenly;
+    padding: 2em;
+    margin-top: 3em;
+}
+
+footer h3 {
+    font-family: 'Anton';
+    color: #000000;
+    font-weight: 800;
+
+}
+
+footer address {
+    font-family: 'JoeFont';
+    margin-top: 0.5em;
+    text-align: justify;
+}
+
+.email {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.find-us {
+    font-size: 3rem;
+    margin-top: 0;
+}
+
+.icon {
+    cursor: pointer;
+    color: black;
+}
+
+/* Tablets */
+
+@media only screen and (max-width: 768px) {
+    footer p {
+        font-size: 1em;
+    }
+}
+
+/* Phones */
+
+@media only screen and (max-width: 600px) {
+    
+    footer {
+        grid-template-columns: repeat(1, auto);
+    }
+    .footer-section {
+        margin-top: 1em;
+    }
+}
