@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a2b78afae0b0eaee4d61ea63899ff3d6",
+    "revision": "c46171258533dba6ab8ae4b145e1bc88",
     "url": "/sleepy-cabin/index.html"
   },
   {
-    "revision": "7975ef876c6d33b7145e",
+    "revision": "6f805496bde203cc8f40",
     "url": "/sleepy-cabin/static/css/main.63d21873.chunk.css"
   },
   {
-    "revision": "942409a93a7ef9913fc6",
-    "url": "/sleepy-cabin/static/js/2.89162bd1.chunk.js"
+    "revision": "0f4156c8d7ecefb704e1",
+    "url": "/sleepy-cabin/static/js/2.22119cb9.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/sleepy-cabin/static/js/2.89162bd1.chunk.js.LICENSE.txt"
+    "url": "/sleepy-cabin/static/js/2.22119cb9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7975ef876c6d33b7145e",
-    "url": "/sleepy-cabin/static/js/main.76bd5c52.chunk.js"
+    "revision": "6f805496bde203cc8f40",
+    "url": "/sleepy-cabin/static/js/main.843de48c.chunk.js"
   },
   {
     "revision": "96db435359428753e9f6",
