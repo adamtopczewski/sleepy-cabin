@@ -10,14 +10,14 @@
     justify-content: center;
     width: 100%;
     height: 250px;
-    font-size: 5rem;
+    font-size: 4.5rem;
     text-align: center;
     font-weight: 500;
     letter-spacing: 0.5rem;
     font-family: 'gravitation', sans-serif;
     text-shadow: 5px 5px black;
     color: #E3E3E3; 
-    background-color: #916150;
+    /*background-color: #916150; */
 }
 
 
