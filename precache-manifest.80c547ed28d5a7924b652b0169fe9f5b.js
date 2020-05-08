@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "686891a4cb80f3cca8b57d2be4602d9b",
+    "revision": "a2b78afae0b0eaee4d61ea63899ff3d6",
     "url": "/sleepy-cabin/index.html"
   },
   {
-    "revision": "dae18e059e6c2fe0b52a",
-    "url": "/sleepy-cabin/static/css/main.8ecbb2fc.chunk.css"
+    "revision": "7975ef876c6d33b7145e",
+    "url": "/sleepy-cabin/static/css/main.63d21873.chunk.css"
   },
   {
-    "revision": "02ceeaadca2dcf649a6f",
-    "url": "/sleepy-cabin/static/js/2.fa9206a0.chunk.js"
+    "revision": "942409a93a7ef9913fc6",
+    "url": "/sleepy-cabin/static/js/2.89162bd1.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/sleepy-cabin/static/js/2.fa9206a0.chunk.js.LICENSE.txt"
+    "url": "/sleepy-cabin/static/js/2.89162bd1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dae18e059e6c2fe0b52a",
-    "url": "/sleepy-cabin/static/js/main.ee4a6090.chunk.js"
+    "revision": "7975ef876c6d33b7145e",
+    "url": "/sleepy-cabin/static/js/main.76bd5c52.chunk.js"
   },
   {
     "revision": "96db435359428753e9f6",
