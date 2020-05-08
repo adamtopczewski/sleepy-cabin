@@ -7,7 +7,7 @@ export default function Cabins() {
     return (
         <>
             <Navbar />
-
+            <h1>Welcome in cabins</h1>
             <Footer />
         </>
     )
