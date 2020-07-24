@@ -25,7 +25,7 @@
 
 .nav-list {
     list-style-type: none;
-    margin-right: 1rem;
+    margin-right: 1rem;    
 }
 
 .nav-item {    
@@ -34,7 +34,7 @@
     font-size: 4.4rem;
     border: 0.3rem solid transparent;    
     color: #3D1D0A;
-    font-family: 'OldPress', sans-serif;
+    font-family: 'OldPress', sans-serif;    
 }
 
 .nav-item:hover {
@@ -42,7 +42,7 @@
     border: 0.3rem solid transparent;    
     border-image: url(../assets/circle.png) 20%;
     cursor: pointer;
-    text-shadow: 5px 5px black;
+    text-shadow: 5px 5px rgb(185, 185, 185);
 }
 
 /* Tablets */

@@ -20,42 +20,41 @@
     /*background-color: #916150; */
 }
 
-
 .amenity {
     width: 25%;
+    padding: 1rem;
     text-align: center;
     margin: 0 1em;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 15%;
+}
+
+.amenity:hover {
+    background-color: rgba(0, 0, 0, .6);
+    -webkit-box-shadow: 6px 7px 5px 0px rgba(0,0,0, 0.3);
+    -moz-box-shadow: 6px 7px 5px 0px rgba(0,0,0,0.3);
+    box-shadow: 6px 7px 5px 0px rgba(0,0,0,0.3);
 }
 
 .amenity-icon {
     font-size: 6rem;
-    color: #EEB08C;
+    color: lightgray;
     margin: 0.5em 0.5em;
 
 }
 .amenity-header {
-    font-family: 'JoeFont', sans-serif;
+    font-family: 'Suez One', serif;
     margin: 0;
     color: lightgray;
     font-size: 2rem;
-    font-weight: 700;
-    text-shadow:
-    -2px -2px 0 #000,  
-     2px -2px 0 #000,
-     -2px 2px 0 #000,
-      2px 2px 0 #000;
+    font-weight: bold;
 }
 .amenity-desc {
-    font-family: 'JoeFont', sans-serif;
-    margin-top: 1em;
+    font-family: 'Suez One', serif;
+    margin-top: 1.5em;
     color: lightgray;
-    font-size: 1rem;
-    font-weight: 700;
-    text-shadow:
-    -2px -2px 0 #000,  
-     2px -2px 0 #000,
-     -2px 2px 0 #000,
-      2px 2px 0 #000;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 
 
