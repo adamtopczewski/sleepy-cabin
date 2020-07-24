@@ -1,8 +1,8 @@
-// only navbar and switch w/ routes
 import React from 'react'
 import './App.css'
-// Router setup
+// Router
 import { Route, Switch } from 'react-router-dom'
+// Pages 
 import Home from './pages/Home'
 import Cabins from './pages/Cabins'
 import About from './pages/About'
