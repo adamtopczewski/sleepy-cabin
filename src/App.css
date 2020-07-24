@@ -15,18 +15,11 @@
 }
 
 /* Testowe fonty*/
-@font-face {
-    font-family: 'Rowdies';
-    src: url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
-}
 
 @font-face {
-    font-family: 'Suez One';
-    src: url('https://fonts.googleapis.com/css2?family=Suez+One&display=swap');
+    font-family: 'Trocchi';
+    src: url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
 }
-
-
-
 
 
 /* General Rules */
@@ -51,7 +44,7 @@ a:hover, a:active { text-decoration: none;}
 /* Container */
 
 .container { 
-    max-width: 960px;
+    max-width: 1024px;
     width: 95%;
     margin: auto;
 }
