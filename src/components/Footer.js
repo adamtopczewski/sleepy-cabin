@@ -25,9 +25,9 @@ export default function Footer() {
                 <div className="footer-section">
                     <h3>Find us:</h3>
                     <p className="find-us">
-                    <a className="icon" href="#"><FontAwesomeIcon icon={faFacebook}/></a>
-                    <a className="icon" href="#"><FontAwesomeIcon icon={faTwitter}/></a>
-                    <a className="icon" href="#"><FontAwesomeIcon icon={faGithub}/></a>
+                    <a className="icon" href="#"><FontAwesomeIcon icon={faFacebook} style={{color:'white'}}/></a>
+                    <a className="icon" href="#"><FontAwesomeIcon icon={faTwitter} style={{color:'white'}}/></a>
+                    <a className="icon" href="#"><FontAwesomeIcon icon={faGithub} style={{color:'white'}}/></a>
                     </p>
                 </div>            
         </footer>

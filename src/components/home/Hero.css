@@ -15,7 +15,7 @@
 .hero-logo {
     width: 80%;
     max-width: 705px;
-    z-index: 1;
+    z-index: 0;
 }
 
 .hero-text {
