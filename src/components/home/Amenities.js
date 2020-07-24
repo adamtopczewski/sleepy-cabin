@@ -24,7 +24,7 @@ export default function Amenities() {
                 </div>
                 <div className="amenity">
                     <FontAwesomeIcon icon={faHiking} className="amenity-icon"/>
-                    <h1 className="amenity-header">Great outdoors</h1>
+                    <h1 className="amenity-header">Outdoors</h1>
                     <p className="amenity-desc">Breath of fresh air coming from Blue Ridge Mountains</p>
                 </div>
                 <div className="amenity">
