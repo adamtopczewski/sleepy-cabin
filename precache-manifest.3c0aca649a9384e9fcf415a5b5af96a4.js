@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c46171258533dba6ab8ae4b145e1bc88",
+    "revision": "0dcb3f17766ae218e9d98cb07979503d",
     "url": "/sleepy-cabin/index.html"
   },
   {
-    "revision": "6f805496bde203cc8f40",
-    "url": "/sleepy-cabin/static/css/main.63d21873.chunk.css"
+    "revision": "d0fec330f900d56c36f9",
+    "url": "/sleepy-cabin/static/css/main.205d8067.chunk.css"
   },
   {
     "revision": "0f4156c8d7ecefb704e1",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sleepy-cabin/static/js/2.22119cb9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6f805496bde203cc8f40",
-    "url": "/sleepy-cabin/static/js/main.843de48c.chunk.js"
+    "revision": "d0fec330f900d56c36f9",
+    "url": "/sleepy-cabin/static/js/main.2b5cb4f3.chunk.js"
   },
   {
     "revision": "96db435359428753e9f6",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ec1d68d60a8a1b224a16a57e70c37bbb",
     "url": "/sleepy-cabin/static/media/Old Press.ec1d68d6.ttf"
+  },
+  {
+    "revision": "2d0461eed24bfe7c40645370cb25209f",
+    "url": "/sleepy-cabin/static/media/Planks1.2d0461ee.jpg"
   },
   {
     "revision": "a9fa4b16c2dd0055ee7f097f4aa9be94",
