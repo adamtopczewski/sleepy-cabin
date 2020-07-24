@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0dcb3f17766ae218e9d98cb07979503d",
+    "revision": "01fa58bfe941f8f8c346ac52d4c2e988",
     "url": "/sleepy-cabin/index.html"
   },
   {
-    "revision": "d0fec330f900d56c36f9",
-    "url": "/sleepy-cabin/static/css/main.205d8067.chunk.css"
+    "revision": "0284c03f517d5fed82fd",
+    "url": "/sleepy-cabin/static/css/main.4d526b77.chunk.css"
   },
   {
     "revision": "0f4156c8d7ecefb704e1",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sleepy-cabin/static/js/2.22119cb9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d0fec330f900d56c36f9",
-    "url": "/sleepy-cabin/static/js/main.2b5cb4f3.chunk.js"
+    "revision": "0284c03f517d5fed82fd",
+    "url": "/sleepy-cabin/static/js/main.95b1b223.chunk.js"
   },
   {
     "revision": "96db435359428753e9f6",
@@ -78,13 +78,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "69d82ba2ca6704a4c1722da5a40fce27",
     "url": "/sleepy-cabin/static/media/polaroid2.69d82ba2.png"
-  },
-  {
-    "revision": "51a0d57262e8fd2ed701f7028afd51c5",
-    "url": "/sleepy-cabin/static/media/titleSignDark.51a0d572.png"
-  },
-  {
-    "revision": "1ab5902375eb29a52f9b91c34db2f7d4",
-    "url": "/sleepy-cabin/static/media/titleSignDarkFliped.1ab59023.png"
   }
 ]);
