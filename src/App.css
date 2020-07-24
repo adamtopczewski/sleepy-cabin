@@ -14,7 +14,20 @@
     src: url('assets/fonts/gravitation_falls.ttf');
 }
 
-@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+/* Testowe fonty*/
+@font-face {
+    font-family: 'Rowdies';
+    src: url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+}
+
+@font-face {
+    font-family: 'Suez One';
+    src: url('https://fonts.googleapis.com/css2?family=Suez+One&display=swap');
+}
+
+
+
+
 
 /* General Rules */
 
@@ -27,8 +40,14 @@
 html, body {
     font-size: 100%;
     background-color: #38251F;
+    background-image: url(assets/Planks1.jpg);
 }
 
+/* Links */
+a:visited { text-decoration: none; color: black;  }
+a:hover { text-decoration: none; }
+a:focus { text-decoration: none;  }
+a:hover, a:active { text-decoration: none;}
 /* Container */
 
 .container { 
