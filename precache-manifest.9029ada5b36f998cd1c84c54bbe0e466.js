@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "35b979555be3e2178e19ac74c28c50a1",
+    "revision": "1ac9b086c0d25910270da7760aecfb1f",
     "url": "/sleepy-cabin/index.html"
   },
   {
-    "revision": "0dca57fcc4d00bda9f42",
-    "url": "/sleepy-cabin/static/css/main.e831d9ec.chunk.css"
+    "revision": "31193b7fefb3585e9916",
+    "url": "/sleepy-cabin/static/css/main.71b2817c.chunk.css"
   },
   {
     "revision": "0f4156c8d7ecefb704e1",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sleepy-cabin/static/js/2.22119cb9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0dca57fcc4d00bda9f42",
+    "revision": "31193b7fefb3585e9916",
     "url": "/sleepy-cabin/static/js/main.6f94e4f7.chunk.js"
   },
   {
@@ -80,7 +80,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sleepy-cabin/static/media/polaroid2.69d82ba2.png"
   },
   {
-    "revision": "b0bc844f5d4915fa2db31117fda02368",
-    "url": "/sleepy-cabin/static/media/sign-center.b0bc844f.png"
+    "revision": "ccfe2cfb5d6d26877226bef63890ca15",
+    "url": "/sleepy-cabin/static/media/sign-center2.ccfe2cfb.jpg"
   }
 ]);
