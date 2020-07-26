@@ -14,7 +14,7 @@ export default function Amenities() {
             <section className="amenities">
                 <div className="amenity">
                     <FontAwesomeIcon icon={faCoffee} className="amenity-icon"/>
-                    <h1 className="amenity-header">Free coffe</h1>
+                    <h1 className="amenity-header">Free coffee</h1>
                     <p className="amenity-desc">You'll be provided with free breakfast and coffe</p>
                 </div>
                 <div className="amenity">
