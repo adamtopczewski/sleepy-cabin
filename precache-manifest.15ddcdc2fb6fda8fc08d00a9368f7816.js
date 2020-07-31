@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1add68241b28990b0e2a2e9eb7c2b09c",
+    "revision": "9e2bcb39ba4f18a2062dda7f04b865d1",
     "url": "/sleepy-cabin/index.html"
   },
   {
-    "revision": "d24c5569945e516ba413",
-    "url": "/sleepy-cabin/static/css/main.2978cb3a.chunk.css"
+    "revision": "9771c69f1da02448c8c0",
+    "url": "/sleepy-cabin/static/css/main.dac42d4a.chunk.css"
   },
   {
     "revision": "a0f4d96ea9cf1e7f560b",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sleepy-cabin/static/js/2.6db87b44.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d24c5569945e516ba413",
+    "revision": "9771c69f1da02448c8c0",
     "url": "/sleepy-cabin/static/js/main.0569e414.chunk.js"
   },
   {
@@ -246,10 +246,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "30dfd68f2912dd8f11271960874d4046",
     "url": "/sleepy-cabin/static/media/room6.30dfd68f.jpg"
-  },
-  {
-    "revision": "b0bc844f5d4915fa2db31117fda02368",
-    "url": "/sleepy-cabin/static/media/sign-center.b0bc844f.png"
   },
   {
     "revision": "ccfe2cfb5d6d26877226bef63890ca15",
