@@ -1,22 +1,18 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
 
-import Hero from '../components/home/Hero'
-import Cards from '../components/home/Cards'
-import FeaturedRooms from '../components/home/FeaturedRooms'
-import Amenities from '../components/home/Amenities'
+import Hero from '../components/Hero'
+import Cards from '../components/Cards'
+import FeaturedRooms from '../components/FeaturedRooms'
+import Amenities from '../components/Amenities'
 
 
 export default function Home() {
     return (
         <>
-            <Navbar />
             <Hero />
             <Cards />
             <FeaturedRooms />
             <Amenities />
-            <Footer />
         </>
     )
 }
