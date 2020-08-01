@@ -8,10 +8,14 @@ import Cabins from './pages/Cabins'
 import About from './pages/About'
 import SingleCabin from './pages/SingleCabin'
 import Error from './pages/Error'
+//Consistent components
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 function App() {
   return (
     <>
+    <Navbar />
     <Switch>
       <Route path="/" exact component={Home} />
       <Route path="/cabins/" exact component={Cabins} />
@@ -19,6 +23,7 @@ function App() {
       <Route path="/cabins/:slug" exact component={SingleCabin} />
       <Route component={Error}/>
     </Switch>
+    <Footer />
     </>
   );
 }
