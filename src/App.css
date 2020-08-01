@@ -17,8 +17,23 @@
 /* Testowe fonty*/
 
 @font-face {
-    font-family: 'Trocchi';
+    font-family: 'Cabin';
     src: url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
+}
+
+
+/* Temp styles */
+:root {
+    --primaryColor: #af9a7d;
+    --mainWhite: #fff;
+    --offWhite: #f7f7f7;
+    --mainBlack: #222;
+    --mainGrey: #ececec;
+    --darkGrey: #cfcfcf;
+    --mainTransition: all 0.3s linear;
+    --mainSpacing: 3px;
+    --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
+    --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -35,12 +50,17 @@ html, body {
     background-color: #38251F;
     background-image: url(assets/Planks1.jpg);
 }
+/* Jeśli działa usuń z navbaru klasy*/
+Link {
+    text-decoration: 'none';
+}
 
 /* Links */
 a:visited { text-decoration: none; color: black;  }
 a:hover { text-decoration: none; }
 a:focus { text-decoration: none;  }
 a:hover, a:active { text-decoration: none;}
+
 /* Container */
 
 .container { 
