@@ -1,6 +1,6 @@
 import React from 'react'
-import img1 from '../../assets/polaroid1.png'
-import img2 from '../../assets/polaroid2.png'
+import img1 from '../assets/polaroid1.png'
+import img2 from '../assets/polaroid2.png'
 // import titleBg from '../../assets/titleSign.png'
 
 import './Cards.css'

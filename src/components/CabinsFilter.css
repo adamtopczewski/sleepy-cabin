@@ -1,0 +1,65 @@
+.filter-container {
+    padding: 3rem 2rem;
+    background: url(../assets/Paper-Texture-Seamless.jpg);
+    background-size: contain;
+    color: black;
+    height: auto;
+    margin-top: 2em;
+  }
+
+  .search-rooms {
+    font-family: 'Cabin', sans-serif;
+    width: 100%;
+    margin: auto;
+  }
+
+  .form-group {
+    text-transform: capitalize;
+  }
+  
+  .form-group:last-child {
+    margin-top: 1rem;
+  }
+
+  .form-group label {
+    display: block;
+    letter-spacing: var(--mainSpacing);
+    margin-bottom: 0.5rem;
+  }
+
+  .form-control {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .size-inputs {
+    display: flex;
+  }
+
+  .size-input {
+    width: 40%;
+    padding: 0.2rem;
+    border: 1px solid var(--mainBlack);
+    border-radius: 0.3rem;
+    margin-right: 0.3rem;
+  }
+
+  .single-extra label {
+    display: inline-block;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+  }
+
+  @media screen and (min-width: 776px) {
+    .filter-form {
+      width: 70vw;
+    }
+    .search-rooms {
+      width: 80%;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    .filter-form {
+      width: 95vw;
+    }
+  }

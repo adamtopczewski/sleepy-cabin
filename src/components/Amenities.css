@@ -29,69 +29,40 @@
     flex-direction: column;
     justify-content: space-around;
     width: 20%;
+    min-height: 330px;
     padding: 1em;
     text-align: center;
-    margin: 0 1em;
-    /*border: 2px solid rgb(80, 80, 80);*/
-    /*background-color: rgba(0, 0, 0, .5);*/
-    background: url(../../assets/sign-center2.jpg) 0 0; 
+
+    background: url(../assets/Paper-Texture-Seamless.jpg); 
     background-size: cover;
     -webkit-box-shadow: 6px 7px 5px 0px rgba(0,0,0, 0.5);
     -moz-box-shadow: 6px 7px 5px 0px rgba(0,0,0, 0.5);
     box-shadow: 6px 7px 5px 0px rgba(0,0,0, 0.5);
-    border-radius: 2%;
 }
-
-
-
-/*
-.amenity::before {
-    content: "";
-    display: block;
-    position: absolute;
-    width: 14px;
-    height: 415px;
-    margin: -14px 0 0 -28px;    
-    float: left;    
-    background: url(../../assets/screws-left.png) 0 0 no-repeat;
-}
-.amenity::after {
-    content: "";
-    display: block;
-    width: 14px;
-    height: auto;
-    margin: 0 0 0 0;   
-    float: right;    
-    background: url(../../assets/screws-right.png) 0 0 no-repeat;
-}
-*/
 
 .amenity-icon {
-    font-size: 5rem;
-    color: lightgray;
+    font-size: 4rem;
+    color: black;
     margin: 0.5em auto;
     width: 95%;
 }
 
-
-
 .amenity-header {
     font-family: 'gravitation', sans-serif;
-    margin: 0;
-    color: lightgray;
+    color: white;
     font-size: 1.8rem;
     font-weight: lighter;
     text-shadow:
-    -1.5px -1.5px 0 #000,  
-    1.5px -1.5px 0 #000,
-    -1.5px 1.5px 0 #000,
-    1.5px 1.5px 0 #000;
+    -2px -2px 0 #000,  
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;
 }
 
 .amenity-desc {
     font-family: 'Cabin', sans-serif;
     margin-top: 1.3em;
-    color: lightgray;
+    color: black;
     font-size: 1.2rem;
     font-weight: bold;
 }
@@ -119,6 +90,7 @@
     }
 
     .amenity-icon {
+        font-size: 6rem;
         margin: auto;
     }
 }

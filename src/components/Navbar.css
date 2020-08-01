@@ -1,23 +1,22 @@
 /* Navbar i header*/
 .header {
+    display: flex;
     position: absolute;
     width: 100%;
-    display: flex;
     overflow: hidden;
     z-index: 1;
+    justify-content: flex-end;
+    align-content: center;
 }
 
 .navbar {
-    position: relative;
-    left: 15rem;
-    top: 3rem;
-    height: 253px;
-    width: 510px;
+    height: 202px;
+    width: 408px;
     max-width: 80%;
-    margin:auto;
+    margin-right: 6rem;
     background-image: url(../assets/note.png);    
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     display: flex;    
     align-items: center;
@@ -26,21 +25,19 @@
 
 .nav-list {
     list-style-type: none;
-    margin-right: 1rem;    
+    margin-top: 1rem;  
 }
 
 .nav-item {    
     display: inline;
-    margin: 0 1rem;
-    font-size: 4.4rem;
+    margin: 0 0.8rem;
+    font-size: 3.5rem;
     border: 0.3rem solid transparent;    
     color: #3D1D0A;
     font-family: 'OldPress', sans-serif;    
 }
 
 .nav-item:hover {
-    color: white;
-    border: 0.3rem solid transparent;    
     border-image: url(../assets/circle.png) 20%;
     cursor: pointer;
     text-shadow: 5px 5px rgb(185, 185, 185);
@@ -50,7 +47,7 @@
 
 @media only screen and (max-width: 768px) {
     .navbar {
-        left: 0;
+        margin: auto;
     }
 }
 
@@ -59,14 +56,11 @@
 @media only screen and (max-width: 600px) {
     .navbar {
         max-width: 70%;
-        height: 180px;
-        left: 0;
-        top: 10%;
+        height: 20vh;
     }
 
     .nav-item {
-        margin: auto 0.2em;
-        font-size: 2.4rem;
-        font-family: 'OldPress', sans-serif;
+        margin: auto 0.1em;
+        font-size: 2.5rem;
     }    
 }

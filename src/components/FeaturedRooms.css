@@ -2,7 +2,7 @@
 .featured-header {
     width: 100%;    
     height: 300px;
-    background-image: url(../../assets/hrSketch.png); 
+    background-image: url(../assets/hrSketch.png); 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -23,15 +23,16 @@
 .featured-rooms {
     display: flex;
     align-items: center;
+    margin-top: 2em;
 }
 
 .room-img {
-    max-width: 600px;
     width: 100%;
 }
 
 .room {
-    text-decoration: none;    
+    text-decoration: none;
+    height: auto;    
 }
 
 .room-name {

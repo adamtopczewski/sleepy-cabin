@@ -1,7 +1,7 @@
 import React from 'react'
-import room1 from '../../assets/Cabins/mock1.png'
-import room2 from '../../assets/Cabins/mock2.png'
-import room3 from '../../assets/Cabins/mock3.png'
+import room1 from '../assets/Cabins/cabin1/room1.jpg'
+import room2 from '../assets/Cabins/cabin2/room2.jpg'
+import room3 from '../assets/Cabins/cabin3/room3.jpg'
 
 import './FeaturedRooms.css'
 

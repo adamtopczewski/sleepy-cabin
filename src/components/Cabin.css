@@ -1,0 +1,69 @@
+
+.room {
+    box-shadow: var(--lightShadow);
+    transition: var(--mainTransition);
+}
+
+.room:hover {
+    box-shadow: var(--darkShadow);
+}
+
+.img-container {
+    position: relative;
+    display: flex;
+    z-index: 0;
+}
+
+.img-container img {
+    width: 100%;
+    display: block;
+    transition: var(--mainTransition);
+}
+
+.img-container:hover {
+    background: rgba(0, 0, 0, 0.8);
+  }
+
+.img-container:hover img {
+    opacity: 0.5;
+}
+
+
+.img-container:hover .room-link {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.room-info {
+    position: absolute;
+    overflow: hidden;
+    z-index: 2;
+    width: 100%;
+    top: 85%;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: var(--mainSpacing);
+    font-family: "JoeFont";
+}
+
+.price-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.9);
+    color: var(--mainWhite);
+    font-family: 'Cabin';
+    padding: 0.3rem 0.6rem 0.5rem;
+    border-bottom-right-radius: 1rem;
+    font-size: 0.7rem;
+    text-align: center;
+    transition: var(--mainTransition);
+  }
+  .price-top h6 {
+    margin-bottom: 0;
+    font-family: 'Cabin';
+    font-size: 0.9rem;
+    font-weight: 100;
+    letter-spacing: var(--mainSpacing);
+  }

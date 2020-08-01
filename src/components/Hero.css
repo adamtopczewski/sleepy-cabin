@@ -1,6 +1,6 @@
 /* Hero */
 .hero {    
-    background-image: url(../../assets/heroBg.jpg);
+    background-image: url(../assets/heroBg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -35,9 +35,9 @@
 /* Tablets */
 @media only screen and (max-width: 768px) {
     .hero-text {
-        left: 40%;
+
+        margin: auto;
         font-size: 2.8rem;
-        margin-right: 1em;
         top: 65%;
     }
 }

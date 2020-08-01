@@ -1,0 +1,139 @@
+/* Whole cabin */
+.single-room {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem;
+    margin-top: 2em;
+}
+
+/* Cabin Images */
+
+.cabin-images {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.single-room-images {
+    flex-direction: row;
+    margin-top: 1rem;
+}
+
+.single-room-images img {
+    width: 100px;
+    height: 100px;
+    border: 4px solid white;
+    object-fit: cover;
+    float: left;
+}
+
+.single-room-main-image img {
+    max-width: 400px;
+    height: auto;
+    object-fit: cover;
+    float: left;
+    margin-bottom: 1em;
+    box-shadow: var(--lightShadow);
+}
+
+/* Cabin Info */
+
+.single-room-info {
+    max-width: 40%;
+    font-family: 'Cabin', sans-serif;
+    color: black;
+    font-size: 1rem;    
+    background-image: url(../assets/Paper-Texture-Seamless.jpg);
+    background-size: contain;
+    padding: 2em;
+    box-shadow: var(--lightShadow);    
+}
+
+.desc{
+    margin-top: 1rem;   
+}
+
+.info {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.desc h3 {
+    text-transform: capitalize;
+    font-size: 1.3rem;
+    letter-spacing: var(--mainSpacing);
+}
+
+.desc p {
+    line-height: 1.5;
+}
+
+.info h3,
+.info h6 {
+    text-transform: capitalize;
+    letter-spacing: var(--mainSpacing);
+    font-size: 0.8rem;
+}
+
+.info h6 {
+    font-weight: 500;
+}
+
+/* Extras section */ 
+.room-extras {
+    background-color: rgba(0, 0, 0, 0.7);
+    font-family: 'Cabin', sans-serif;
+    width: 80vw;
+    margin: 3rem auto 3rem auto;
+    color: white;
+    padding: 1rem;
+    box-shadow: var(--lightShadow);  
+}
+.room-extras h6 {
+    font-size: 1rem;
+    margin-bottom: .5em;
+    text-transform: capitalize;
+    letter-spacing: var(--mainSpacing);
+}
+
+/* extras na najmniejszych rozdziałkach się rozwala */
+.extras {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-column-gap: 2rem;
+    grid-row-gap: 1rem;
+}
+
+.extras li {
+    width: auto;
+}
+
+/* Tablets */
+
+@media only screen and (max-width: 850px) {
+    .single-room {
+        flex-direction: column;
+    }
+    .cabin-images{
+        width: 95vw;
+    }
+    .single-room-info {
+        max-width: 90vw;
+        margin-top: 1rem;
+    }
+}
+
+/* Phones */
+
+@media only screen and (max-width: 600px) {
+    .single-room-main-image img {
+        max-width: 80vw;
+    }
+}
