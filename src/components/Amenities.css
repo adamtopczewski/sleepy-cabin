@@ -33,7 +33,7 @@
     padding: 1em;
     text-align: center;
 
-    background: url(../assets/Paper-Texture-Seamless.jpg); 
+    background: url(../assets/paperTextureBg.jpg); 
     background-size: cover;
     -webkit-box-shadow: 6px 7px 5px 0px rgba(0,0,0, 0.5);
     -moz-box-shadow: 6px 7px 5px 0px rgba(0,0,0, 0.5);

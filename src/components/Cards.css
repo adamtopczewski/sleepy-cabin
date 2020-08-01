@@ -12,7 +12,7 @@
 
 .card-text {    
     width: 50%;
-    background: url(../assets/Paper-Texture-Seamless.jpg) 0 0 no-repeat;
+    background: url(../assets/paperTextureBg.jpg) 0 0 no-repeat;
     background-size: cover;
     padding: 2em;
     height: 100%;
