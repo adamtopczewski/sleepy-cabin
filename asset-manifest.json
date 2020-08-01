@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/sleepy-cabin/static/css/main.dac42d4a.chunk.css",
-    "main.js": "/sleepy-cabin/static/js/main.0569e414.chunk.js",
-    "main.js.map": "/sleepy-cabin/static/js/main.0569e414.chunk.js.map",
+    "main.css": "/sleepy-cabin/static/css/main.1bd142cc.chunk.css",
+    "main.js": "/sleepy-cabin/static/js/main.eb9b7d51.chunk.js",
+    "main.js.map": "/sleepy-cabin/static/js/main.eb9b7d51.chunk.js.map",
     "runtime-main.js": "/sleepy-cabin/static/js/runtime-main.47fb8632.js",
     "runtime-main.js.map": "/sleepy-cabin/static/js/runtime-main.47fb8632.js.map",
-    "static/js/2.6db87b44.chunk.js": "/sleepy-cabin/static/js/2.6db87b44.chunk.js",
-    "static/js/2.6db87b44.chunk.js.map": "/sleepy-cabin/static/js/2.6db87b44.chunk.js.map",
+    "static/js/2.76e6404f.chunk.js": "/sleepy-cabin/static/js/2.76e6404f.chunk.js",
+    "static/js/2.76e6404f.chunk.js.map": "/sleepy-cabin/static/js/2.76e6404f.chunk.js.map",
     "index.html": "/sleepy-cabin/index.html",
-    "precache-manifest.15ddcdc2fb6fda8fc08d00a9368f7816.js": "/sleepy-cabin/precache-manifest.15ddcdc2fb6fda8fc08d00a9368f7816.js",
+    "precache-manifest.eb30b86bfe62399d3d430970b61cd90b.js": "/sleepy-cabin/precache-manifest.eb30b86bfe62399d3d430970b61cd90b.js",
     "service-worker.js": "/sleepy-cabin/service-worker.js",
-    "static/css/main.dac42d4a.chunk.css.map": "/sleepy-cabin/static/css/main.dac42d4a.chunk.css.map",
-    "static/js/2.6db87b44.chunk.js.LICENSE.txt": "/sleepy-cabin/static/js/2.6db87b44.chunk.js.LICENSE.txt",
+    "static/css/main.1bd142cc.chunk.css.map": "/sleepy-cabin/static/css/main.1bd142cc.chunk.css.map",
+    "static/js/2.76e6404f.chunk.js.LICENSE.txt": "/sleepy-cabin/static/js/2.76e6404f.chunk.js.LICENSE.txt",
     "static/media/App.css": "/sleepy-cabin/static/media/gravitation_falls.0865f672.ttf",
     "static/media/SingleCabin.css": "/sleepy-cabin/static/media/Paper-Texture-Seamless.dddd5691.jpg",
     "static/media/Navbar.css": "/sleepy-cabin/static/media/note.621097d3.png",
@@ -32,13 +32,12 @@
     "static/media/room3.jpg": "/sleepy-cabin/static/media/room3.eeeaee21.jpg",
     "static/media/room4.jpg": "/sleepy-cabin/static/media/room4.1002f944.jpg",
     "static/media/room5.jpg": "/sleepy-cabin/static/media/room5.d8375f44.jpg",
-    "static/media/room6.jpg": "/sleepy-cabin/static/media/room6.30dfd68f.jpg",
-    "static/media/Amenities.css": "/sleepy-cabin/static/media/sign-center2.ccfe2cfb.jpg"
+    "static/media/room6.jpg": "/sleepy-cabin/static/media/room6.30dfd68f.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.47fb8632.js",
-    "static/js/2.6db87b44.chunk.js",
-    "static/css/main.dac42d4a.chunk.css",
-    "static/js/main.0569e414.chunk.js"
+    "static/js/2.76e6404f.chunk.js",
+    "static/css/main.1bd142cc.chunk.css",
+    "static/js/main.eb9b7d51.chunk.js"
   ]
 }
