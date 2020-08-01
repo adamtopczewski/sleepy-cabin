@@ -27,7 +27,7 @@ export default function Footer() {
                     <p className="find-us">
                     <a className="icon" href="#"><FontAwesomeIcon icon={faFacebook} style={{color:'white'}}/></a>
                     <a className="icon" href="#"><FontAwesomeIcon icon={faTwitter} style={{color:'white'}}/></a>
-                    <a className="icon" href="#"><FontAwesomeIcon icon={faGithub} style={{color:'white'}}/></a>
+                    <a className="icon" href="https://github.com/adamtopczewski/" target="_blank"><FontAwesomeIcon icon={faGithub} style={{color:'white'}}/></a>
                     </p>
                 </div>            
         </footer>
