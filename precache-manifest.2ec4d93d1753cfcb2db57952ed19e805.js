@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "838f1f0a3339568b85b484b8abdc33a4",
+    "revision": "3ca506d369e626a3103297950c5dd6f8",
     "url": "/sleepy-cabin/index.html"
   },
   {
-    "revision": "c2bcacea971e89db257b",
-    "url": "/sleepy-cabin/static/css/main.c5c5f1e7.chunk.css"
+    "revision": "f038f0f3eec5aef0dd8a",
+    "url": "/sleepy-cabin/static/css/main.1d4cc7f2.chunk.css"
   },
   {
     "revision": "f4d965916fa72cb524df",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sleepy-cabin/static/js/2.4c669ac2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c2bcacea971e89db257b",
+    "revision": "f038f0f3eec5aef0dd8a",
     "url": "/sleepy-cabin/static/js/main.04911223.chunk.js"
   },
   {

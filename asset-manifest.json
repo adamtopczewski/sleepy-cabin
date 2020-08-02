@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/sleepy-cabin/static/css/main.c5c5f1e7.chunk.css",
+    "main.css": "/sleepy-cabin/static/css/main.1d4cc7f2.chunk.css",
     "main.js": "/sleepy-cabin/static/js/main.04911223.chunk.js",
     "main.js.map": "/sleepy-cabin/static/js/main.04911223.chunk.js.map",
     "runtime-main.js": "/sleepy-cabin/static/js/runtime-main.47fb8632.js",
@@ -8,9 +8,9 @@
     "static/js/2.4c669ac2.chunk.js": "/sleepy-cabin/static/js/2.4c669ac2.chunk.js",
     "static/js/2.4c669ac2.chunk.js.map": "/sleepy-cabin/static/js/2.4c669ac2.chunk.js.map",
     "index.html": "/sleepy-cabin/index.html",
-    "precache-manifest.f1372602d0351e2402e851c3577ffa4b.js": "/sleepy-cabin/precache-manifest.f1372602d0351e2402e851c3577ffa4b.js",
+    "precache-manifest.2ec4d93d1753cfcb2db57952ed19e805.js": "/sleepy-cabin/precache-manifest.2ec4d93d1753cfcb2db57952ed19e805.js",
     "service-worker.js": "/sleepy-cabin/service-worker.js",
-    "static/css/main.c5c5f1e7.chunk.css.map": "/sleepy-cabin/static/css/main.c5c5f1e7.chunk.css.map",
+    "static/css/main.1d4cc7f2.chunk.css.map": "/sleepy-cabin/static/css/main.1d4cc7f2.chunk.css.map",
     "static/js/2.4c669ac2.chunk.js.LICENSE.txt": "/sleepy-cabin/static/js/2.4c669ac2.chunk.js.LICENSE.txt",
     "static/media/App.css": "/sleepy-cabin/static/media/woodenBg.f396ea7e.jpg",
     "static/media/Navbar.css": "/sleepy-cabin/static/media/navNote.a0872d52.png",
@@ -37,7 +37,7 @@
   "entrypoints": [
     "static/js/runtime-main.47fb8632.js",
     "static/js/2.4c669ac2.chunk.js",
-    "static/css/main.c5c5f1e7.chunk.css",
+    "static/css/main.1d4cc7f2.chunk.css",
     "static/js/main.04911223.chunk.js"
   ]
 }
