@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/sleepy-cabin/static/css/main.c4383414.chunk.css",
-    "main.js": "/sleepy-cabin/static/js/main.11090671.chunk.js",
-    "main.js.map": "/sleepy-cabin/static/js/main.11090671.chunk.js.map",
+    "main.css": "/sleepy-cabin/static/css/main.c5c5f1e7.chunk.css",
+    "main.js": "/sleepy-cabin/static/js/main.04911223.chunk.js",
+    "main.js.map": "/sleepy-cabin/static/js/main.04911223.chunk.js.map",
     "runtime-main.js": "/sleepy-cabin/static/js/runtime-main.47fb8632.js",
     "runtime-main.js.map": "/sleepy-cabin/static/js/runtime-main.47fb8632.js.map",
-    "static/js/2.76e6404f.chunk.js": "/sleepy-cabin/static/js/2.76e6404f.chunk.js",
-    "static/js/2.76e6404f.chunk.js.map": "/sleepy-cabin/static/js/2.76e6404f.chunk.js.map",
+    "static/js/2.4c669ac2.chunk.js": "/sleepy-cabin/static/js/2.4c669ac2.chunk.js",
+    "static/js/2.4c669ac2.chunk.js.map": "/sleepy-cabin/static/js/2.4c669ac2.chunk.js.map",
     "index.html": "/sleepy-cabin/index.html",
-    "precache-manifest.1b7dd7ac7f22f8fc2c9ac1c8a6e01d99.js": "/sleepy-cabin/precache-manifest.1b7dd7ac7f22f8fc2c9ac1c8a6e01d99.js",
+    "precache-manifest.f1372602d0351e2402e851c3577ffa4b.js": "/sleepy-cabin/precache-manifest.f1372602d0351e2402e851c3577ffa4b.js",
     "service-worker.js": "/sleepy-cabin/service-worker.js",
-    "static/css/main.c4383414.chunk.css.map": "/sleepy-cabin/static/css/main.c4383414.chunk.css.map",
-    "static/js/2.76e6404f.chunk.js.LICENSE.txt": "/sleepy-cabin/static/js/2.76e6404f.chunk.js.LICENSE.txt",
+    "static/css/main.c5c5f1e7.chunk.css.map": "/sleepy-cabin/static/css/main.c5c5f1e7.chunk.css.map",
+    "static/js/2.4c669ac2.chunk.js.LICENSE.txt": "/sleepy-cabin/static/js/2.4c669ac2.chunk.js.LICENSE.txt",
     "static/media/App.css": "/sleepy-cabin/static/media/woodenBg.f396ea7e.jpg",
     "static/media/Navbar.css": "/sleepy-cabin/static/media/navNote.a0872d52.png",
     "static/media/FeaturedRooms.css": "/sleepy-cabin/static/media/featuredHeaderBg.02f85765.png",
-    "static/media/Hero.css": "/sleepy-cabin/static/media/heroBg.b72303b2.jpg",
+    "static/media/Hero.css": "/sleepy-cabin/static/media/heroBgSingleCabin.de467d9d.jpg",
     "static/media/img1.jpg": "/sleepy-cabin/static/media/img1.f65f68bd.jpg",
     "static/media/img2.jpg": "/sleepy-cabin/static/media/img2.bd7bbf4f.jpg",
     "static/media/img3.jpg": "/sleepy-cabin/static/media/img3.f6a52339.jpg",
@@ -36,8 +36,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.47fb8632.js",
-    "static/js/2.76e6404f.chunk.js",
-    "static/css/main.c4383414.chunk.css",
-    "static/js/main.11090671.chunk.js"
+    "static/js/2.4c669ac2.chunk.js",
+    "static/css/main.c5c5f1e7.chunk.css",
+    "static/js/main.04911223.chunk.js"
   ]
 }
