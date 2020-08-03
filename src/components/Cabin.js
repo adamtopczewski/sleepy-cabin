@@ -9,7 +9,7 @@ export default function Room({room}) {
     const {name, slug, images, price} = room;
 
     return (
-        <Link to={`/cabins/${slug}`} className="btn-primary room-link">
+        <Link to={`/cabins/${slug}`} className="">
             <article className="room">
                 <div className="img-container">
                     <img  src={images[0] || deafultImg} alt="single room"/>
