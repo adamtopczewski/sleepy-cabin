@@ -1,6 +1,5 @@
 /* Hero */
-.hero {    
-    background-image: url(../assets/heroBg.jpg);
+.hero {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -12,13 +11,43 @@
     align-items: center;
 }
 
+/* Default values excluding "home" */
+.hero-text {
+    display: none;
+}
+
 .hero-logo {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    max-width: 250px;
+}
+
+.hero-title {
+    font-size: 7rem;
+    margin-top: 3rem;
+    font-weight: lighter;
+    font-family: 'gravitation', sans-serif;
+    text-shadow: 5px 5px black;
+    color: #E3E3E3;
+}
+/* Default values excluding "home" */
+
+/* Conditional hero */
+
+.home {
+    background-image: url(../assets/heroBg.jpg);
+}
+
+.home .hero-logo {
+    position: static;
     width: 80%;
     max-width: 705px;
     z-index: 0;
 }
 
-.hero-text {
+.home .hero-text {
+    display: block;
     position: absolute;
     top: 60%;
     left: 50%;
@@ -31,24 +60,61 @@
     z-index: 2;
 }
 
+.cabins {
+    background-image: url(../assets/heroBgCabins.png);
+    height: 50vh;
+}
+
+.singleCabin {
+    background-image: url(../assets/heroBgSingleCabin.jpg);
+    height: 50vh;
+}
+
+.about {
+    background-image: url(../assets/heroBgAbout.png);
+    background-position: bottom;
+    height: 50vh;
+}
+
+/* Conditional hero end*/
 
 /* Tablets */
 @media only screen and (max-width: 768px) {
-    .hero-text {
+    .home .hero-text {
+        display: block;
+        position: static;
+        font-size: 3em;
+    }
 
-        margin: auto;
-        font-size: 2.8rem;
-        top: 65%;
+    .hero-logo {
+        display: block;
+        position: relative;
+        left: -15px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .hero-title {
+        font-size: 4rem;
+        margin-top: 0;
     }
 }
 
 /* Phones */
 @media only screen and (max-width: 600px) {
-    .hero-text {
-        font-size: 2rem;
-        top: 70%;
-        left: 0;
-        width: 100%;
+    .home .hero-text {
+        display: block;
+        position: static;
+        font-size: 2em;
     }
-    
+    .hero-logo {
+        width: 50%;
+    }
+    .hero-title {
+        font-size: 3rem;
+    }
+
+    .singleCabin .hero-title {
+        font-size: 2.5rem;
+    }
 }
