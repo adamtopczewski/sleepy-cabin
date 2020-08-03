@@ -1,17 +1,28 @@
 import React, { Component } from 'react';
 import { RoomContext } from '../Context';
 import Hero from '../components/Hero';
+import polaroidTemplate from '../assets/polaroidTransparent.png'
 import './SingleCabin.css';
+
 
 export default class SingleCabin extends Component {
     constructor(props){
         super(props);
         this.state = {
-            slug: this.props.match.params.slug
+            slug: this.props.match.params.slug,
+            showImg: null
         }
+        this.changeImage = this.changeImage.bind(this)
     }
 
     static contextType = RoomContext;
+
+    changeImage(event) {
+       let clicked = event.target.src;
+       this.setState({
+           showImg: clicked
+       }) 
+    }
     
     render() {
         const { getRoom } = this.context;
@@ -21,7 +32,6 @@ export default class SingleCabin extends Component {
                 <h3>didn't find room</h3>
             )
         }
-        console.log(room)
 
         const {name, description, capacity, 
             size, price, extras, breakfast, pets, images} = room
@@ -30,15 +40,17 @@ export default class SingleCabin extends Component {
 
         return (
             <>
-                <Hero />
+                <Hero renderClass="singleCabin" title={name} />
                 <section className="single-room">
                     <article className="cabin-images">
                         <div div className="single-room-main-image">
-                            <img src={mainImg} alt={name}/>
+                            <img src={ polaroidTemplate }
+                            style={{backgroundImage: `url(${this.state.showImg ? this.state.showImg : mainImg})`}}
+                            alt={name}/>
                         </div>
                         <div className="single-room-images">
                             {defaultImg.map((item, index) => {
-                            return <img key={index} src={item} alt={name}/>
+                            return <img key={index} src={item} alt={name} onClick={this.changeImage}/>
                             })}
                         </div>
                     </article>
