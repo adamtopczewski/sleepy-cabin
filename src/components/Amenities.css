@@ -16,8 +16,6 @@
     font-family: 'gravitation', sans-serif;
     text-shadow: 4px 4px black;
     color: #E3E3E3; 
-    /*background-color: #916150; */
-
 }
 
 .amenities-header h1 {
@@ -32,7 +30,6 @@
     min-height: 330px;
     padding: 1em;
     text-align: center;
-
     background: url(../assets/paperTextureBg.jpg); 
     background-size: cover;
     -webkit-box-shadow: 6px 7px 5px 0px rgba(0,0,0, 0.5);
@@ -67,6 +64,7 @@
     font-weight: bold;
 }
 
+/* Tablets */
 
 @media only screen and (max-width: 768px) {
     .amenities-header {
@@ -96,10 +94,9 @@
 }
 
 /* Phones */
-
 @media only screen and (max-width: 600px) {
     .amenities-header {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     .amenities {
