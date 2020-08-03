@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3ca506d369e626a3103297950c5dd6f8",
+    "revision": "850204114a3c476cff03c7618a329d74",
     "url": "/sleepy-cabin/index.html"
   },
   {
-    "revision": "f038f0f3eec5aef0dd8a",
-    "url": "/sleepy-cabin/static/css/main.1d4cc7f2.chunk.css"
+    "revision": "fa7d5bc2b2b6141f3d4c",
+    "url": "/sleepy-cabin/static/css/main.e0bb2a9f.chunk.css"
   },
   {
-    "revision": "f4d965916fa72cb524df",
-    "url": "/sleepy-cabin/static/js/2.4c669ac2.chunk.js"
+    "revision": "912e68228cb9bd6b89c7",
+    "url": "/sleepy-cabin/static/js/2.f9db438a.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/sleepy-cabin/static/js/2.4c669ac2.chunk.js.LICENSE.txt"
+    "url": "/sleepy-cabin/static/js/2.f9db438a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f038f0f3eec5aef0dd8a",
-    "url": "/sleepy-cabin/static/js/main.04911223.chunk.js"
+    "revision": "fa7d5bc2b2b6141f3d4c",
+    "url": "/sleepy-cabin/static/js/main.8f62b0b9.chunk.js"
   },
   {
     "revision": "96db435359428753e9f6",
@@ -230,6 +230,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0d23e116ffe41f7d488f207e3c406e57",
     "url": "/sleepy-cabin/static/media/polaroid2.0d23e116.png"
+  },
+  {
+    "revision": "57a57582aaf68dc08bd30bf2ba91181f",
+    "url": "/sleepy-cabin/static/media/polaroidTransparent.57a57582.png"
   },
   {
     "revision": "a5a882a09c3d3bedf5edadfd4ecf368c",

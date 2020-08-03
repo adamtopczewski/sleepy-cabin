@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/sleepy-cabin/static/css/main.1d4cc7f2.chunk.css",
-    "main.js": "/sleepy-cabin/static/js/main.04911223.chunk.js",
-    "main.js.map": "/sleepy-cabin/static/js/main.04911223.chunk.js.map",
+    "main.css": "/sleepy-cabin/static/css/main.e0bb2a9f.chunk.css",
+    "main.js": "/sleepy-cabin/static/js/main.8f62b0b9.chunk.js",
+    "main.js.map": "/sleepy-cabin/static/js/main.8f62b0b9.chunk.js.map",
     "runtime-main.js": "/sleepy-cabin/static/js/runtime-main.47fb8632.js",
     "runtime-main.js.map": "/sleepy-cabin/static/js/runtime-main.47fb8632.js.map",
-    "static/js/2.4c669ac2.chunk.js": "/sleepy-cabin/static/js/2.4c669ac2.chunk.js",
-    "static/js/2.4c669ac2.chunk.js.map": "/sleepy-cabin/static/js/2.4c669ac2.chunk.js.map",
+    "static/js/2.f9db438a.chunk.js": "/sleepy-cabin/static/js/2.f9db438a.chunk.js",
+    "static/js/2.f9db438a.chunk.js.map": "/sleepy-cabin/static/js/2.f9db438a.chunk.js.map",
     "index.html": "/sleepy-cabin/index.html",
-    "precache-manifest.2ec4d93d1753cfcb2db57952ed19e805.js": "/sleepy-cabin/precache-manifest.2ec4d93d1753cfcb2db57952ed19e805.js",
+    "precache-manifest.eddb6368867f6998d625902c90d3bd3d.js": "/sleepy-cabin/precache-manifest.eddb6368867f6998d625902c90d3bd3d.js",
     "service-worker.js": "/sleepy-cabin/service-worker.js",
-    "static/css/main.1d4cc7f2.chunk.css.map": "/sleepy-cabin/static/css/main.1d4cc7f2.chunk.css.map",
-    "static/js/2.4c669ac2.chunk.js.LICENSE.txt": "/sleepy-cabin/static/js/2.4c669ac2.chunk.js.LICENSE.txt",
+    "static/css/main.e0bb2a9f.chunk.css.map": "/sleepy-cabin/static/css/main.e0bb2a9f.chunk.css.map",
+    "static/js/2.f9db438a.chunk.js.LICENSE.txt": "/sleepy-cabin/static/js/2.f9db438a.chunk.js.LICENSE.txt",
     "static/media/App.css": "/sleepy-cabin/static/media/woodenBg.f396ea7e.jpg",
     "static/media/Navbar.css": "/sleepy-cabin/static/media/navNote.a0872d52.png",
-    "static/media/FeaturedRooms.css": "/sleepy-cabin/static/media/featuredHeaderBg.02f85765.png",
+    "static/media/FeaturedCabins.css": "/sleepy-cabin/static/media/featuredHeaderBg.02f85765.png",
     "static/media/Hero.css": "/sleepy-cabin/static/media/heroBgSingleCabin.de467d9d.jpg",
     "static/media/img1.jpg": "/sleepy-cabin/static/media/img1.f65f68bd.jpg",
     "static/media/img2.jpg": "/sleepy-cabin/static/media/img2.bd7bbf4f.jpg",
@@ -27,6 +27,7 @@
     "static/media/SingleCabin.css": "/sleepy-cabin/static/media/paperTextureBg.03f14f3e.jpg",
     "static/media/polaroid1.png": "/sleepy-cabin/static/media/polaroid1.ce99fe1a.png",
     "static/media/polaroid2.png": "/sleepy-cabin/static/media/polaroid2.0d23e116.png",
+    "static/media/polaroidTransparent.png": "/sleepy-cabin/static/media/polaroidTransparent.57a57582.png",
     "static/media/room1.jpg": "/sleepy-cabin/static/media/room1.a5a882a0.jpg",
     "static/media/room2.jpg": "/sleepy-cabin/static/media/room2.b45a94b7.jpg",
     "static/media/room3.jpg": "/sleepy-cabin/static/media/room3.eeeaee21.jpg",
@@ -36,8 +37,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.47fb8632.js",
-    "static/js/2.4c669ac2.chunk.js",
-    "static/css/main.1d4cc7f2.chunk.css",
-    "static/js/main.04911223.chunk.js"
+    "static/js/2.f9db438a.chunk.js",
+    "static/css/main.e0bb2a9f.chunk.css",
+    "static/js/main.8f62b0b9.chunk.js"
   ]
 }
