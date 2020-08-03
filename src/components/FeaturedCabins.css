@@ -1,4 +1,3 @@
-/* TBD */
 .featured-header {
     width: 100%;    
     height: 300px;
@@ -21,61 +20,38 @@
 }
 
 .featured-rooms {
-    display: flex;
-    align-items: center;
-    margin-top: 2em;
+    padding: 5rem 0;
 }
 
-.room-img {
-    width: 100%;
-}
-
-.room {
-    text-decoration: none;
-    height: auto;    
-}
-
-.room-name {
-    position: relative;
-    text-align: center;
-    top: -3em;
-    font-family: 'JoeFont', sans-serif;
-    margin: 0;
-    color: black;
-    font-size: 1.7rem;
-    font-weight: 700;
-    z-index: 1;
+.featured-rooms-center {
+    width: 80vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    grid-row-gap: 2rem;
+    grid-column-gap: 40px;
 }
 
 /* Tablets */
-
 @media only screen and (max-width: 768px) {
     .featured-header h1 {
         font-size: 5rem;
     }
-    .room-name {
-        font-size: 2rem;
-    }
     .featured-rooms {
+        padding: 3rem 0;
+    }
+    .featured-rooms-center {
         display: flex;
         flex-direction: column;
-        height: auto;
-        align-items: center;
+        padding: 0;
         margin: auto;
     }
 }
-
 /* Phones */
-
 @media only screen and (max-width: 600px) {
     .featured-header h1 {
-        font-size: 4rem;
+        font-size: 3rem;
     }
-    .room-name {
-        font-size: 1.8rem;
-    }
-    .featured-rooms {
-        flex-direction: column;
-        height: auto;
-    }
+
+
 }
