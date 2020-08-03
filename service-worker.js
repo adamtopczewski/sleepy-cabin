@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/sleepy-cabin/precache-manifest.eddb6368867f6998d625902c90d3bd3d.js"
+  "/sleepy-cabin/precache-manifest.5bead49e3af2d6675f71eeef736a3959.js"
 );
 
 self.addEventListener('message', (event) => {
