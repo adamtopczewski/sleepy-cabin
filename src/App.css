@@ -1,19 +1,17 @@
 /* Costum fonts import*/
+
 @font-face {
     font-family: 'OldPress';
     src: url('assets/fonts/Old\ Press.ttf');
 }
-
 @font-face {
     font-family: 'JoeFont';
     src: url('assets/fonts/Joe\ Font.ttf');
 }
-
 @font-face {
     font-family: 'gravitation';
     src: url('assets/fonts/gravitation_falls.ttf');
 }
-
 /* Testowe fonty*/
 
 @font-face {
@@ -21,8 +19,8 @@
     src: url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
 }
 
-
 /* Temp styles */
+
 :root {
     --primaryColor: #af9a7d;
     --mainWhite: #fff;
@@ -51,15 +49,15 @@ html, body {
     background-image: url(assets/woodenBg.jpg);
 }
 /* Jeśli działa usuń z navbaru klasy*/
-Link {
+Link a{
     text-decoration: 'none';
 }
 
 /* Links */
 a:visited { text-decoration: none; color: black;  }
-a:hover { text-decoration: none; }
-a:focus { text-decoration: none;  }
-a:hover, a:active { text-decoration: none;}
+a:hover { text-decoration: none; color: black;}
+a:focus { text-decoration: none;  color: black;}
+a:hover, a:active { text-decoration: none; color: black}
 
 /* Container */
 
@@ -78,5 +76,30 @@ a:hover, a:active { text-decoration: none;}
     flex-direction: row-reverse;
 }
 
+/* About */
+
+.about-text {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 90vw;
+    padding: 1em;
+    margin: auto;
+    margin-top: 3rem;
+    min-height: 435px;
+    background: url(./assets/paperTextureBg.jpg); 
+    background-size: cover;
+    -webkit-box-shadow: 6px 7px 5px 0px rgba(0,0,0, 0.5);
+    -moz-box-shadow: 6px 7px 5px 0px rgba(0,0,0, 0.5);
+    box-shadow: 6px 7px 5px 0px rgba(0,0,0, 0.5);
+}
+
+.about-text h1 {
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    color: black;
+    font-size: 2rem;
+    margin: auto;
+}
 
 
