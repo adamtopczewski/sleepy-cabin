@@ -6,7 +6,7 @@ import Hero from '../components/Hero'
 export default function Cabins() {
     return (
         <>
-            <Hero />
+            <Hero renderClass="cabins" title="cabins"/>
             <CabinContainer/>
         </>
     )
