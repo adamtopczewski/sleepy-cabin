@@ -47,16 +47,21 @@
 
 @media only screen and (max-width: 768px) {
     .navbar {
-        margin: auto;
+        margin: 0 auto 1rem auto;
+        max-width: 60%;
+        height: 15vh;
     }
+    .nav-item {
+        margin: auto 0.1em;
+        font-size: 2.5rem;
+    }    
 }
 
 /* Phones */
 
 @media only screen and (max-width: 600px) {
     .navbar {
-        max-width: 70%;
-        height: 20vh;
+
     }
 
     .nav-item {
