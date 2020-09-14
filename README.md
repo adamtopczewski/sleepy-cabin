@@ -1,4 +1,4 @@
-**Sleepy Cabin**
+# Sleepy Cabin
 
 *Link: https://adamtopczewski.github.io/sleepy-cabin/*
 
