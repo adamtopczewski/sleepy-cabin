@@ -1,5 +1,5 @@
 # Sleepy Cabin
-<img src="src/assets/logo.png" width="250px">
+<img src="src/assets/logo.png" width="350px" style="display:block; margin: 0 auto;">
 # Demo
 Link: https://adamtopczewski.github.io/sleepy-cabin/*
 
