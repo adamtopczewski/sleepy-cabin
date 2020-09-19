@@ -1,7 +1,9 @@
 # Sleepy Cabin
+![Logo](src/assets/logo.png)
+# Demo
+Link: https://adamtopczewski.github.io/sleepy-cabin/*
 
-*Link: https://adamtopczewski.github.io/sleepy-cabin/*
-
+# About
 Simple reservation website made in react using create-react-app.
 Inspiration was my old job, where I used to work with hotel database.
 This project is a practice in design,~~animations,~~ routing and working with mock data. 
