@@ -12,6 +12,7 @@ Backend is mocked using static data.
 
 # Technologies
 - ReactJS
+- React Router
 - HTML
 - CSS
 
