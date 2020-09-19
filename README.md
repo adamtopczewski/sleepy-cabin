@@ -10,14 +10,19 @@ Also used to learn basics of react.
 Since this is a fictional business all the social links, addresses, and contact information are fake.
 Backend is mocked using static data.
 
-Things to be done: 
+# Technologies
+- ReactJS
+- HTML
+- CSS
+
+# Things to be done 
 - adding booking functionality
 - adding animations
 - mock check-out
 - reworking css
 - optimization *mainly images*
 
-**Credits**
+# Credits
 
 Logo design based on: https://youtu.be/Gp-CIB7kfxg
 
